@@ -413,6 +413,14 @@ textarea{
     column-gap: 1.5rem;
 }
 
+.section-subtitle-container01{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
 .subtitle-number{
     width: 5rem;
     height: 5rem;
@@ -458,6 +466,10 @@ textarea{
     transition: background-color .25s;
 }
 
+.card-image01{
+    margin-bottom: 2.5rem;
+}
+
 .card-image img{
     width: 100%;
     height: 100%;
@@ -467,7 +479,7 @@ textarea{
 
 .portfolio-card:hover .card-image,
 .portfolio-card:focus .card-image{
-    background-color: #ff7575;   
+    background-color: #3b3636;   
 }
 
 .card-heading{
@@ -478,9 +490,27 @@ textarea{
     font-size: 2rem;
 }
 
+.card-title01{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
 .card-subtitle{
     font-size: 1.4rem;
     opacity: .8;
+}
+
+.card-subtitle01{
+    font-size: 1.7rem;
+    opacity: .8;
+    margin-bottom: 1.5rem;
+}
+
+.card-subtitle02{
+    font-size: 1.7rem;
+    opacity: .8;
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 .large-button-container{
@@ -660,12 +690,12 @@ textarea{
     }
 
     .portfolio-card-1{
-        grid-column: 1/6;
+        grid-column: 1/5;
         grid-row: 1/span 10;
     }
 
     .portfolio-card-2{
-        grid-column: 6/-1;
+        grid-column: 5/-1;
         grid-row: 2/span 10;
     }
 
@@ -680,13 +710,28 @@ textarea{
     }
 
     .portfolio-card-5{
-        grid-column: 4/-1;
+        grid-column: 5/-1;
         grid-row: 22/span 10;
     }
 
     .portfolio-card-6{
-        grid-column: 1/4;
+        grid-column: 1/5;
         grid-row: 21/span 10;
+    }
+
+    .portfolio-card-01{
+        grid-column: 1/10;
+        grid-row: 11/span 10;
+    }
+
+    .portfolio-card-02{
+        grid-column: 1/5;
+        grid-row: 1/span 10;
+    }
+
+    .portfolio-card-03{
+        grid-column: 6/-1;
+        grid-row: 1/span 10;
     }
 
     .input-group{
