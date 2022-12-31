@@ -725,12 +725,12 @@ textarea{
     }
 
     .portfolio-card-02{
-        grid-column: 1/5;
+        grid-column: 1/6;
         grid-row: 1/span 10;
     }
 
     .portfolio-card-03{
-        grid-column: 6/-1;
+        grid-column: 7/-1;
         grid-row: 1/span 10;
     }
 
