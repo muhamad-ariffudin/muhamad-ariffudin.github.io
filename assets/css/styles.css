@@ -510,7 +510,7 @@ textarea{
     font-size: 1.7rem;
     opacity: .8;
     margin-bottom: 1.5rem;
-    text-align: center;
+    align-items: center;
 }
 
 .large-button-container{
@@ -650,7 +650,7 @@ textarea{
 
 @media screen and (min-width: 768px){
     .container{
-        max-width: 96rem;
+        max-width: 120rem;
     }
 
     .inline-image{
