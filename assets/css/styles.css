@@ -457,7 +457,7 @@ textarea{
 
 .card-image{
     height: 30rem;
-    background-color: #b3bbce;
+    background-color: #fdfdfd;
     margin-bottom: 2.5rem;
     border-radius: .4rem;
     display: flex;
@@ -604,11 +604,6 @@ textarea{
     margin: 0 auto;
 }
 
-.required-field{
-    font-size: 1rem;
-    color: #ff7575;
-    transform: translateY(-.8rem);
-}
 /* !FOOTER STYLES */
 .footer-container{
     display: flex;
@@ -686,7 +681,7 @@ textarea{
     }
 
     .portfolio-cards{
-        grid-template-columns: repeat(8, 1fr);
+        grid-template-columns: repeat(8, 2fr);
     }
 
     .portfolio-card-1{
@@ -717,6 +712,16 @@ textarea{
     .portfolio-card-6{
         grid-column: 1/5;
         grid-row: 21/span 10;
+    }
+
+    .portfolio-card-7{
+        grid-column: 5/-1;
+        grid-row: 32/span 10;
+    }
+
+    .portfolio-card-8{
+        grid-column: 1/5;
+        grid-row: 31/span 10;
     }
 
     .portfolio-card-01{
