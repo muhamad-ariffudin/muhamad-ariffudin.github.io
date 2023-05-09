@@ -726,7 +726,7 @@ textarea{
 
     .portfolio-card-01{
         grid-column: 1/10;
-        grid-row: 11/span 10;
+        grid-row: 21/span 10;
     }
 
     .portfolio-card-02{
@@ -737,6 +737,11 @@ textarea{
     .portfolio-card-03{
         grid-column: 7/-1;
         grid-row: 1/span 10;
+    }
+
+    .portfolio-card-04{
+        grid-column: 1/10;
+        grid-row: 11/span 10;
     }
 
     .input-group{
