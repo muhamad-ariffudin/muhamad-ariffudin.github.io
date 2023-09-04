@@ -522,6 +522,12 @@ textarea{
     margin-bottom: 1.5rem;
 }
 
+.card-subtitle03{
+    font-size: 3rem;
+    opacity: .8;
+    margin-bottom: 1.5rem;
+}
+
 .card-subtitle02{
     font-size: 1.9rem;
     opacity: .8;
